@@ -1,3 +1,9 @@
+# Installing
+## Create a python venv in desire dir. This assumes you have already installed python, pip, and Java and set the PATH var.
+python -m venv . 
+source bin/activate 
+pip3 install pyspark[sql,ml,mllib]
+
 # C2
 ## Launch local cluster 
 pyspark --master local[*]
